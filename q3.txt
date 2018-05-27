@@ -1,0 +1,39 @@
+question 3
+
+a1=int(input("Enter the age of the first person : "))
+a2=int(input("Enter the age of the second person : "))
+a3=int(input("Enter the age of the third person : "))
+if(a1>a2 and a1>a3):
+	print("First person is oldest.")
+elif(a2>a3 and a2>a1):
+        print("Second person is oldest.")
+elif(a3>a2 and a3>a1):
+        print("Third person is oldest.")
+else:
+        print("All are equal.")
+
+if(a1<a2 and a1<a3):
+        print("First person is youngest.")
+elif(a2<a3 and a2<a1):
+        print("Second person is youngest.")
+elif(a3<a2 and a3<a1):
+        print("Third person is youngest.")
+else:
+        print("All are equal.")
+
+
+
+Enter the age of the first person : 35
+Enter the age of the second person : 20
+Enter the age of the third person : 27
+First person is oldest.
+Second person is youngest.
+
+
+
+
+
+
+
+
+

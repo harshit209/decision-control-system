@@ -1,0 +1,11 @@
+question 1
+
+year = int(input("Enter the year to check it is leap year or not : "))
+if((year%400==0)or((year%4==0)and(year%100!=0))):
+	print("The given year is a leap year.")
+else:
+	print("The given year is not a leap year.")
+
+
+Enter the year to check it is leap year or not : 2004
+The given year is a leap year. 

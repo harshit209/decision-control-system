@@ -1,0 +1,17 @@
+question 2
+
+length = int(input("Enter the length : "))
+breadth = int(input("Enter the breadth : "))
+if(length==breadth):
+	print("Square")
+else:
+	print("Rectangle")
+
+
+Enter the length : 9
+Enter the breadth : 9
+Square
+
+Enter the length : 10
+Enter the breadth : 20
+Rectangle
